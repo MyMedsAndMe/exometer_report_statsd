@@ -12,7 +12,7 @@
 -behaviour(exometer_report).
 
 -include_lib("kernel/include/inet.hrl").
--include_lib("deps/exometer_core/include/exometer.hrl").
+-include_lib("exometer_core/include/exometer.hrl").
 
 %% gen_server callbacks
 -export(
