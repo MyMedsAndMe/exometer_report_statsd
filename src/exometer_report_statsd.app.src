@@ -1,0 +1,14 @@
+{application, exometer_report_statsd,
+ [
+  {description, "Statsd reporter for Exometer compatible with exometer_core"},
+  {vsn, "1"},
+  {modules, [
+             exometer_report_statsd
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
